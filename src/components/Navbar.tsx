@@ -81,10 +81,10 @@ export default function Navbar() {
 
         {/* Socials & Menu Toggle */}
         <div className="flex items-center gap-4">
-          <a href="https://github.com/YourUsername" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors hidden sm:block">
+          <a href="https://github.com/Arlindi1" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors hidden sm:block">
             <Github size={20} />
           </a>
-          <a href="https://linkedin.com/in/YourUsername" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors hidden sm:block">
+          <a href="https://www.linkedin.com/in/arlind-arifaj/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors hidden sm:block">
             <Linkedin size={20} />
           </a>
           
