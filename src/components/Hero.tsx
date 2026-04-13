@@ -66,9 +66,9 @@ export default function Hero() {
             {/* Main Photo Container */}
             <div className="absolute inset-4 rounded-full border-2 border-cyan-500/50 overflow-hidden shadow-[0_0_30px_rgba(0,240,255,0.2)]">
               <img 
-                src="/public/projects/profile/Arlindi.jpg" // Put your photo in /public folder and name it here
+                src="/projects/profile/Arlindi.jpg" // Put your photo in /public folder and name it here
                 alt=""
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover"
               />
             </div>
             
