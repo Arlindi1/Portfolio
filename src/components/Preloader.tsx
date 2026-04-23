@@ -33,7 +33,7 @@ export default function Preloader({ finishLoading }: { finishLoading: () => void
         <Cpu className="absolute inset-0 m-auto text-cyan-400" size={32} />
       </div>
       
-      <h2 className="text-cyan-400 tracking-[0.3em] mb-2">⚡ SYSTEM INITIALIZING</h2>
+      <h2 className="text-cyan-400 tracking-[0.3em] mb-2">SYSTEM INITIALIZING</h2>
       <div className="w-64 h-1 bg-white/10 rounded-full overflow-hidden border border-white/5">
         <motion.div 
           className="h-full bg-cyan-500 shadow-[0_0_15px_rgba(0,240,255,0.8)]"

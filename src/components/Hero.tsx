@@ -5,7 +5,8 @@ import { MapPin, Mail } from 'lucide-react';
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center pt-20">
-      <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
+      {/* Container constrained to max-w-6xl for better centering */}
+      <div className="grid lg:grid-cols-2 gap-12 items-center w-full max-w-6xl mx-auto px-6">
         
         {/* Left Side: Text Content */}
         <motion.div
@@ -20,11 +21,13 @@ export default function Hero() {
             </p>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black font-mono text-white mb-2 tracking-tighter uppercase">
-            Frontend <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 drop-shadow-[0_0_15px_rgba(0,240,255,0.3)]">Developer</span>
+          {/* Solid White Heading - No Gradient */}
+          <h1 className="text-4xl md:text-5xl font-black font-mono text-white mb-4 tracking-tighter uppercase">
+            Frontend Developer
           </h1>
           
-          <h2 className="text-xl md:text-2xl font-bold mb-6 text-slate-400 font-mono italic">
+          {/* Simplified Subtitle Styling */}
+          <h2 className="text-lg md:text-xl font-mono text-cyan-400 mb-8 border-l-2 border-cyan-400 pl-4">
             {"> Building Intuitive & Dynamic Interfaces"}
           </h2>
 
@@ -57,22 +60,21 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative flex justify-center lg:justify-end"
+          // Changed to justify-center to keep the image closer to center
+          className="relative flex justify-center"
         >
           <div className="relative w-64 h-64 md:w-80 md:h-80 group">
-            {/* Animated Ring Background */}
+            {/* Animated Ring Background - Kept as per your original form */}
             <div className="absolute inset-0 border-2 border-dashed border-cyan-500/20 rounded-full animate-[spin_20s_linear_infinite]" />
             
-            {/* Main Photo Container */}
+            {/* Main Photo Container - Kept as per your original form */}
             <div className="absolute inset-4 rounded-full border-2 border-cyan-500/50 overflow-hidden shadow-[0_0_30px_rgba(0,240,255,0.2)]">
               <img 
-                src="/projects/profile/Arlindi.jpg" // Put your photo in /public folder and name it here
-                alt=""
+                src="/projects/profile/Arlindi.jpg" 
+                alt="Arlind Arifaj"
                 className="w-full h-full object-cover"
               />
             </div>
-            
-            {/* Tech Decoration */}
           </div>
         </motion.div>
 

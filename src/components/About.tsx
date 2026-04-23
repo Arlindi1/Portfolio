@@ -33,7 +33,7 @@ export default function About() {
       {/* Journey Timeline Side */}
       <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
         <div className="flex items-center gap-3 mb-8">
-          <h3 className="text-xl font-mono text-purple-400 font-bold uppercase tracking-widest">{"⚡ The Journey"}</h3>
+          <h3 className="text-xl font-mono text-purple-400 font-bold uppercase tracking-widest">{"The Journey"}</h3>
         </div>
         <div className="relative border-l border-white/10 pl-8 ml-3 space-y-12">
           {content.journey.map((item, idx) => (
